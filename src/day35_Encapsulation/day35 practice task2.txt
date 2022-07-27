@@ -1,4 +1,4 @@
-1. CandiesTask:*
+6. CandiesTask:*
          1.1 Create a custom class named Candy
                 private variables:
                     brand (String), quantity (int), price (double), hasPeanuts (boolean)
@@ -21,7 +21,7 @@
 
 
 
-2. Credentials Task:*
+7. Credentials Task:*
     Create a class named Credentials
             Variables:
                 username, password
@@ -47,7 +47,7 @@
 
 
 
-3. BankAccount Tas:*
+8. BankAccountTask:*
     Create a class named BankAccount
         Private variables:
             accountHolder, accountNumber, balance
@@ -67,7 +67,7 @@
 
 
 
-4. ScrumTeam Task:*
+9. ScrumTeamTask:*
     re-do the Scrum task by making all the fields private in each custom classes
 
 
@@ -79,7 +79,7 @@
 
 
 
-5. Restaurant Task:
+10. RestaurantTask:
     re-do the Restaurant task by making all the fields private in each custom classes
 
     Encapsulate all the field

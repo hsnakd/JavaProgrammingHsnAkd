@@ -1,21 +1,13 @@
-package day35_Encapsulation.Z_1_SquareTask;
+package day35_Encapsulation.Z_1_SquareTask_WithoutGetterSetter;
 
 public class SquareClass {
     private double side;
 
-    public double getSide() {
-        return side;
-    }
-
-    public void setSide(double side) {
+    public SquareClass(double side) {
         if (side <= 0) {
             return;
         }
         this.side = side;
-    }
-
-    public SquareClass(double side) {
-        setSide(side);
     }
 
     public double calcArea(){
