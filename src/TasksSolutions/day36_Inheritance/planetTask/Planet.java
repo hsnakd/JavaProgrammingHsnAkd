@@ -75,7 +75,7 @@ public class Planet {
     }
 
     public String toString() {
-        return "Planet{" +
+        return "Earth{" +
                 "name='" + name + '\'' +
                 ", mass='" + mass + '\'' +
                 ", radius=" + radius +
@@ -88,7 +88,7 @@ public class Planet {
 }
 
 /*
-create a class called Planet
+create a class called Earth
 			variables:
 					name, mass, radius, surfaceGravity, surfaceArea, volume, population
 

@@ -4,7 +4,7 @@ package replitSolutions;//Given a String **message** in the following format:
 //
 //        ```
 //        Sender: Mike Smith
-//        Phone Number: 202-123-3456
+//        PhoneClass Number: 202-123-3456
 //        Message body: I love programing and problem solving
 //        ```
 
@@ -21,7 +21,7 @@ public class _3_022_String_SMSMessage {
         phoneNumber=message.substring(message.indexOf("[")+1,message.indexOf("]"));
         messageBody=message.substring(message.indexOf("{")+1,message.indexOf("}"));
         System.out.println("Sender: "+ sender);
-        System.out.println("Phone Number: "+ phoneNumber);
+        System.out.println("PhoneClass Number: "+ phoneNumber);
         System.out.println("Message body: "+ messageBody);
     }
 }

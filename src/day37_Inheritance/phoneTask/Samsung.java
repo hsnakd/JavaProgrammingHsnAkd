@@ -15,7 +15,7 @@ public final class Samsung extends Phone {
 
 
 /*
-Create a subclass of Phone named Samsung:
+Create a subclass of PhoneClass named Samsung:
                 Variables:
                     brand, model, size, price, color
 

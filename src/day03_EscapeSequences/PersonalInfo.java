@@ -7,7 +7,7 @@ public class PersonalInfo {
         System.out.println("Gender          : ");
         System.out.println("Date of Birth   : ");
         System.out.println("Car         : ");
-        System.out.println("Phone Number    : ");
+        System.out.println("PhoneClass Number    : ");
         System.out.println("SSN             : ");
 
 

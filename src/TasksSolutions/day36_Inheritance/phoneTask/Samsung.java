@@ -8,7 +8,7 @@ public class Samsung extends Phone{
 
 }
 /*
-1.3 Create a sub class of Phone named Samsung:
+1.3 Create a sub class of PhoneClass named Samsung:
 				Variables:
 					brand, model, size, price, color
 

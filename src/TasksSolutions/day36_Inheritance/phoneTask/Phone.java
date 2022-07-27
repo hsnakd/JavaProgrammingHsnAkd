@@ -35,7 +35,7 @@ public class Phone {
 }
 
 /*
-1.1 Create a class named Phone:
+1.1 Create a class named PhoneClass:
 				Variables:
 					brand, model, size, price, color
 

@@ -16,7 +16,7 @@ public class Z_PhoneNumber {
     }
 }
 /*
-1. create a class named Phone Number and declare the following variables:
+1. create a class named PhoneClass Number and declare the following variables:
 countryCode, areaCode, localNumber
 use string concatenation to display the phone number
         ex:

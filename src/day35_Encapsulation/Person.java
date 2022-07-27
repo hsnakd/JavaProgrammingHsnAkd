@@ -28,7 +28,7 @@ public class Person {
     }
 
     public static void printPlanetName(){
-        System.out.println("Planet name is "+planet);
+        System.out.println("Earth name is "+planet);
     }
 
     public void eat(String food) {

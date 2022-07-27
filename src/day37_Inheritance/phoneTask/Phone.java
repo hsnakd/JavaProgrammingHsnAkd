@@ -27,7 +27,7 @@ public class Phone { // parent class: only contains the common features of all t
     }
 
     public String toString() {
-        return "Phone{" +
+        return "PhoneClass{" +
                 "brand='" + brand + '\'' +
                 ", model='" + model + '\'' +
                 ", size='" + size + '\'' +
@@ -42,7 +42,7 @@ public class Phone { // parent class: only contains the common features of all t
 
 
 /*
-1.1 Create a class named Phone:
+1.1 Create a class named PhoneClass:
 				Variables:
 					brand, model, size, price, color
 

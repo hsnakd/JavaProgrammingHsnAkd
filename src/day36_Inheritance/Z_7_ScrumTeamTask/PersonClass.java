@@ -1,3 +1,9 @@
+package day36_Inheritance.Z_7_ScrumTeamTask;
+
+public class PersonClass {
+
+}
+/*
 7. ScrumTeamTask:*
 	1. Create a class named Person
 			variables:
@@ -19,7 +25,7 @@
 
 				work()
 
-				toString(): generate toString separately in Employee class so that name, age, gender, id, jobTitle and salary of the emplyee can be displayed
+				toString(): generate toString seperately in Employee class so that name, age, gender, id, jobTitle and salary of the emplyee can be displayed
 
 
 	3. Create a subclass of Employee named Tester:
@@ -74,12 +80,4 @@
 			Create an object of ScrumTeam
 
 			Add the ProductOwner, ScrumMaster, and BusinessAnalyst, Testers and Developers object into the scrum team
-
-
-
-
-
-
-
-
-
+ */

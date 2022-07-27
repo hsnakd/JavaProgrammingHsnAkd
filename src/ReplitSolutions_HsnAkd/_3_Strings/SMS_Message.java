@@ -18,7 +18,7 @@ public class SMS_Message {
         int phoneNumber1 = message.indexOf("[")+1;
         int phoneNumber2 = message.indexOf("]");
         phoneNumber = message.substring(phoneNumber1,phoneNumber2);
-        System.out.println("Phone Number: " + phoneNumber);
+        System.out.println("PhoneClass Number: " + phoneNumber);
 
         int messageNumber1 = message.indexOf("{")+1;
         int messageNumber2 = message.indexOf("}");
@@ -40,7 +40,7 @@ public class SMS_Message {
 Given a String message in the following format: Sender:<Mike Smith>. From Number:[202-123-3456]. Message:{I love programing and problem solving} assign the value of the sender, phoneNumber, and messageBody variables and print them.
 
 Sender: Mike Smith
-Phone Number: 202-123-3456
+PhoneClass Number: 202-123-3456
 Message body: I love programing and problem solving
 
  */
