@@ -10,36 +10,84 @@ public class MethodsWithString_LameDB_____ {
         System.out.println(lameDb(in.next(), in.next(), in.next(), in.next()));
     }
 
-    public static String lameDb(String db, String op, String id, String data) {
-        String result = "";
+    public static String lameDb(String db, String op, String id, String data){
+        String resultDb="";
+        String[] arr = db.split("#"); // turning your String into an Array
+        System.out.println(Arrays.toString(arr)); // printing an array
+        // for(String each: arr){ }
+        for (int i = 0; i < arr.length; i++) {  // I need to get rid of numbers at the elements
+            arr[i] = arr[i].substring(1);
+        }
+        System.out.println(Arrays.toString(arr));
+        int index = Integer.parseInt(id)-1;  // 4th element means index 3 for Array
+        String[] newArr = null;
 
-        String[] dataBase = db.split("#");
-        ArrayList<String> newDataBase = new ArrayList<>();
-
-       // (add, edit, or delete)
-        if (op.equals("add")) {
-            for (String each : dataBase) {
-                for (int i = 1, j=Integer.parseInt(id); i <= dataBase.length; i++) {
-                    if (Integer.parseInt(id) > i) {
-                        newDataBase.add(each);
-                    } else if (Integer.parseInt(id) == i) {
-                        newDataBase.add(id+data);
-                    } else if (Integer.parseInt(id) < i) {
-                        newDataBase.add(each.charAt(0), id+j);
-                        j++;
+        switch (op){
+            case "add":
+                // our original array will increase with 1 element
+                newArr = new String[arr.length+1];
+                for(int i=0,j=0; i < arr.length+1; ){
+                    if(index==i){
+                        newArr[i]= data;
+                        i++;
+                        continue;
                     }
+                    newArr[i]=arr[j];
+                    i++;
+                    j++;
                 }
-            }
+                break;
+            case "edit":
+                // our original array will stay same
+                newArr = new String[arr.length];
+                for(int i=0; i< arr.length;i++){
+                    if(index==i){
+                        newArr[i]= data;
+                        continue;
+                    }
+                    newArr[i]=arr[i];
+                }
+                break;
+            case "delete":
+                // our original array will decrease with 1 element
+                newArr = new String[arr.length];
+                for (int i=0;i< arr.length;i++){
+                    if(index==i){
+                        newArr[i]=data;
+                        continue;
+                    }
+                    newArr[i]=arr[i];
+                }
+
+                break;
         }
 
+        System.out.println(Arrays.toString(newArr));
+        int z = 1;
+        for(String each: newArr){  // to create result String with each of our Array element
+            if(!each.isEmpty()) {
+                resultDb += z + each + "#";
+                z++;
+            }else {
+                resultDb+="#";
+                z++;
+                continue;
+            }
+        }
+        return resultDb.substring(0,resultDb.length()-1);  // taking out the last # from the end
+    }
 
-        System.out.println(newDataBase);
+    public String lameDb(String db, String op, int id, String data){  // this is an instance method even though it is in the same class, it needs an object created to be called
+        String resultDb="oscar";
+        // some solution
+        return resultDb;
+    }
 
 
-        return result;
-    }//end lameDb
 
-}
+}//end lameDb
+
+
 
 /*
 A database (DB) is an organized collection of data.

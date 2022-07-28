@@ -9,7 +9,6 @@ public class Credentials {
         setPassword(password);
     }
 
-
     public String getUsername() {
         return username;
     }
