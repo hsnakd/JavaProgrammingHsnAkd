@@ -1,7 +1,91 @@
 package day35_Encapsulation.Z_5_PizzaTask;
 
 public class PizzaClass {
+    private String size;
+    private int numberOfCheeseTopping;
+    private int numberOfPepperoniTopping;
 
+    public String getSize() {
+        return size;
+    }
+
+    public void setSize(String size) {
+        if (!(size.equalsIgnoreCase("small") || size.equalsIgnoreCase("medium") || size.equalsIgnoreCase("large")) || size == null) {
+            System.err.println("Invalid Size : " + size);
+            System.exit(0);
+        }
+        this.size = size;
+    }
+
+    public int getNumberOfCheeseTopping() {
+        return numberOfCheeseTopping;
+    }
+
+    public void setNumberOfCheeseTopping(int numberOfCheeseTopping) {
+        if (numberOfCheeseTopping < 0) {
+            System.err.println("Invalid number of cheese topping: " + numberOfCheeseTopping);
+            System.exit(0);
+        }
+        if (size.equalsIgnoreCase("small") && numberOfCheeseTopping <= 3) {
+            this.numberOfCheeseTopping = numberOfCheeseTopping;
+        } else if (size.equalsIgnoreCase("medium") && numberOfCheeseTopping <= 4) {
+            this.numberOfCheeseTopping = numberOfCheeseTopping;
+        } else if (size.equalsIgnoreCase("large") && numberOfCheeseTopping <= 5) {
+            this.numberOfCheeseTopping = numberOfCheeseTopping;
+        } else {
+            return;
+        }
+        this.numberOfCheeseTopping = numberOfCheeseTopping;
+    }
+
+    public int getNumberOfPepperoniTopping() {
+        return numberOfPepperoniTopping;
+    }
+
+    public void setNumberOfPepperoniTopping(int numberOfPepperoniTopping) {
+        if (numberOfPepperoniTopping < 0) {
+            System.err.println("Invalid number of pepperoni topping: " + numberOfPepperoniTopping);
+            System.exit(0);
+        }
+        if (size.equalsIgnoreCase("small") && numberOfPepperoniTopping <= 3) {
+            this.numberOfPepperoniTopping = numberOfPepperoniTopping;
+        } else if (size.equalsIgnoreCase("medium") && numberOfPepperoniTopping <= 4) {
+            this.numberOfPepperoniTopping = numberOfPepperoniTopping;
+        } else if (size.equalsIgnoreCase("large") && numberOfPepperoniTopping <= 5) {
+            this.numberOfPepperoniTopping = numberOfPepperoniTopping;
+        } else {
+            System.err.println("Invalid number of pepperoni topping: " + numberOfPepperoniTopping);
+            System.exit(0);
+        }
+        this.numberOfPepperoniTopping = numberOfPepperoniTopping;
+    }
+
+    public PizzaClass(String size, int numberOfCheeseTopping, int numberOfPepperoniTopping) {
+        setSize(size);
+        setNumberOfCheeseTopping(numberOfCheeseTopping);
+        setNumberOfPepperoniTopping(numberOfPepperoniTopping);
+    }
+
+    double price = 0;
+    public double calcCost (){
+        if (size.equalsIgnoreCase("small")) {
+            price = 10 + (numberOfPepperoniTopping + numberOfCheeseTopping) * 2;
+        } else if (size.equalsIgnoreCase("medium")) {
+            price = 12 + (numberOfPepperoniTopping + numberOfCheeseTopping) * 2;
+        } else if (size.equalsIgnoreCase("large")) {
+            price = 14 + (numberOfPepperoniTopping + numberOfCheeseTopping) * 2;
+        }
+        return price;
+    }
+
+    public String toString() {
+        return "PizzaClass{" +
+                "size='" + size + '\'' +
+                ", numberOfCheeseTopping=" + numberOfCheeseTopping +
+                ", numberOfPepperoniTopping=" + numberOfPepperoniTopping +
+                ", price=" + calcCost() +
+                '}';
+    }
 }
 
 /*

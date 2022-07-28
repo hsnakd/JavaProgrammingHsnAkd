@@ -1,7 +1,65 @@
 package day35_Encapsulation.Z_4_ItemTask;
 
 public class ItemClass {
+    private String name;
+    private double unitPrice;
+    private int quantity;
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        if (name.isEmpty() || name.isBlank()) {
+            return;
+        }
+        this.name = name;
+    }
+
+    public double getUnitPrice() {
+        return unitPrice;
+    }
+
+    public void setUnitPrice(double unitPrice) {
+        if (unitPrice <= 0) {
+            return;
+        }
+        this.unitPrice = unitPrice;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        if (quantity <= 0) {
+            return;
+        }
+        if (name.equalsIgnoreCase("toilet paper")) {
+            this.quantity = 1;
+        }
+        this.quantity = quantity;
+    }
+
+    public ItemClass(String name, double unitPrice, int quantity) {
+        setName(name);
+        setUnitPrice(unitPrice);
+        setQuantity(quantity);
+    }
+
+    public double calcCost(){
+        return quantity * unitPrice;
+    }
+
+    @Override
+    public String toString() {
+        return "ItemClass{" +
+                "name='" + name + '\'' +
+                ", unitPrice=" + unitPrice +
+                ", quantity=" + quantity +
+                ", total cost=" + calcCost() +
+                '}';
+    }
 }
 /*
 4. Item Task:*

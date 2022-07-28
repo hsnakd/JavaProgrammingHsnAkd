@@ -78,7 +78,7 @@ public class Item {
                 "name='" + name + '\'' +
                 ", unitPrice=" + unitPrice +
                 ", quantity= $" + quantity +
-                ", total price= $" + quantity +
+                ", total price= $" + calcCost() +
                 '}';
     }
 
