@@ -15,7 +15,7 @@ warmup tasks:
 						3. grade should not be set to any characters other than: 'A', 'B', 'C', 'D', and 'F'
 
 			Add a constructor that can set all teh fields when the object is created
-						(requirments of fileds in the above must be applied)
+						(requirements of fields in the above must be applied)
 
 
 			Methods:

@@ -27,6 +27,7 @@ public class AnimalObjects {
         System.out.println(parrot1);
 
         parrot1.sing();
+
       //  parrot1.bark();
       //  parrot1.scratch();
 

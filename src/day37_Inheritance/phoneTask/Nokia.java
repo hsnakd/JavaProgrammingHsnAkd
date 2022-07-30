@@ -15,7 +15,7 @@ public final class Nokia extends Phone {
 
 
 /*
-1.4 Create a sub class of PhoneClass named Nokia:
+1.4 Create a subclass of PhoneClass named Nokia:
                 Variables:
                     brand, model, size, price, color
                 Methods:

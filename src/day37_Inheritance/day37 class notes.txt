@@ -31,19 +31,19 @@ OOP Inheritance: to build IS A relation between classes (parent and child,  supe
 
 
 
-this keyword: referst to the instances. Current class
-	this. : calls instance variables & instance methods
+this keyword: refers to the instances. Current class
+	this.  : calls instance variables & instance methods
 	this() : calls the constructor of current class
 
 
-super keyword: referst to the instances. parent class
-	super. :calls instance variables & instance methods of super class
+super keyword: refers to the instances. parent class
+	super.  :calls instance variables & instance methods of superclass
 	super() : calls the constructor of parent class
 
 
 	Constructor calls in inheritance:
 			1. Child class MUST call parent class' constructor
-			2. Parent class' default constructor is always called implicitly in child class
+			2. Parent class' default constructor is always called implicitly in child class (compiler do it automatically)
 			3. Parent class' constructor with argument need to be called explicitly
 
 
@@ -103,7 +103,7 @@ Multi Level Inheritance:
 		c
 	}
 
-	class ManualTester extends Tester{ // namually tester: a, b, c, d
+	class ManualTester extends Tester{ // manually tester: a, b, c, d
 		d
 	}
 
@@ -127,7 +127,7 @@ Hierarchical inheritance:
 		d
 	}
 
-	class Nikia extends Phone{ //Nokia: a, e
+	class Nokia extends Phone{ //Nokia: a, e
 		e
 	}
 
@@ -164,7 +164,7 @@ class X{
 	x
 }
 
-class Y extends X, Z{
+class Y extends X, Z{ // one class only extends one class
 	y
 }
 
