@@ -2,7 +2,7 @@ package liveReviewSessions.week13;
 
   // WE HAD TO IMPORT THIS CLASS
 
-import week13.inheritance.Book;
+import day37_week13.inheritance.Book;
 
 public class PaperBook extends Book {
 
