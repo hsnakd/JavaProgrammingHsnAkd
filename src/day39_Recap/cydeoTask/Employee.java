@@ -56,7 +56,7 @@ public class Employee extends Person {
 }
 
 /*
-2. Create a sub class of Person named Employee:
+2. Create a subclass of Person named Employee:
             Extra variables:
                 employeeId, jobTitle, salary
 

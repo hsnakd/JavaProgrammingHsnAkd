@@ -27,6 +27,13 @@ public class SquareClass {
     }
 }
 /*
+
+Our side variable's access modifier is private. In the recorded video we set the requirements in the setter method.
+In this example I didn't use getter and setter methods, and I set requirement in the constructor.
+In this situation I can use side variable in the "SquareObject" class. My requirement is also work (square2) .
+
+Maybe I misunderstood but in recorded video Muhtar said "We never use private data in the other classes, and we use private date for giving a requirement"
+
 1. Square Task:*
 		1.1 Create a class named Square:
 				Private variables:
