@@ -17,6 +17,7 @@ public class ParkingLot {
         tesla.start();
         bmw.start();
 
+        toyota.drive();
 
     }
 

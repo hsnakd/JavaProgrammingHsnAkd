@@ -39,7 +39,7 @@ IS A relation vs HAS A relation:
 
 		}
 
-		class Dog exetnds Animal{  // Dog IS A animal
+		class Dog extends Animal{  // Dog IS A animal
 
 		}
 
@@ -150,7 +150,6 @@ Shape:
 		area(){return 0}
 		perimeter{return 0}
 		toString(): name, area, perimeter
-
 
 Circle
 	r
