@@ -18,7 +18,7 @@ public class Tester extends Employee{
 
 }
 /*
-3. Create a sub class of Employee named Tester
+3. Create a subclass of Employee named Tester
 
             Override the work method
 

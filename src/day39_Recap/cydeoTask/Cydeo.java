@@ -72,8 +72,19 @@ public class Cydeo {
 
 
         
+    // TODO HSNAKD
 
+        SDET_HsnAkd sdet1 = new SDET_HsnAkd("Hsn",38,'M',123456789,987654321,"test department",500);
+        System.err.println(sdet1);
 
+        SDET_HsnAkd_J sdet2 = new SDET_HsnAkd_J("akd",30,'M',12345,98765,"test department_J",250,5);
+        System.err.println(sdet2);
+
+        sdet2.setName("Akd");
+        sdet2.setAge(38);
+        sdet2.setWorkingYear(3);
+
+        System.err.println(sdet2);
 
     }
 

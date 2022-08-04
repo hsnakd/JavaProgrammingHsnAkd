@@ -4,7 +4,7 @@ public class MyCar {
 
     public static void main(String[] args) {
         String year = "2013";
-        String brand = "Nissan";
+        String brand = "Nissan_HsnAkd";
         String model = "Qashqai";
         String miles = "130000";
         String color = "White";
