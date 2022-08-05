@@ -1,4 +1,4 @@
-package day40_FinalKeyword;
+package day40_FinalKeyword.ZooPackage;
 
 public class Animal {
 
@@ -71,7 +71,9 @@ public class Animal {
         System.out.println(name+" is drinking water");
     }
 
-
+    public final static void walk (){
+        System.out.println(" is eating dog food");
+    }
 
 
 }

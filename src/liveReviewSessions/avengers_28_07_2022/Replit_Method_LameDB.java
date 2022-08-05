@@ -13,7 +13,7 @@ public class Replit_Method_LameDB {
 //        - `id`: The id number that will be manipulated
 //        - `data`: extra data that will be used alongside operation
 //
-//        - The method returns the modifed database
+//        - The method returns the modified database
 //
 //        Examples:
 //

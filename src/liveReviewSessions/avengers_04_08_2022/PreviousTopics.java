@@ -1,6 +1,7 @@
 package liveReviewSessions.avengers_04_08_2022;
 
-import avengers_28_07_2022.Replit_Method_LameDB;
+
+import liveReviewSessions.avengers_28_07_2022.Replit_Method_LameDB;
 
 import java.util.Arrays;
 

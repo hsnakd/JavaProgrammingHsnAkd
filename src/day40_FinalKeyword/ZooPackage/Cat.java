@@ -1,4 +1,5 @@
-package day40_FinalKeyword;
+package day40_FinalKeyword.ZooPackage;
+
 
 public final class Cat extends Animal {
 
