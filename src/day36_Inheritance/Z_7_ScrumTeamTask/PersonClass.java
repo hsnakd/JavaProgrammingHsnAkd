@@ -1,7 +1,68 @@
 package day36_Inheritance.Z_7_ScrumTeamTask;
 
 public class PersonClass {
+    private String name;
+    private int age;
+    private char gender;
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        if (name.isEmpty() || name.isBlank()) {
+            System.err.println("Invalid name");
+            System.exit(1);
+        }
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        if (age < 0 || age > 150) {
+            System.err.println("Invalid age: " + age);
+            System.exit(1);
+        }
+        this.age = age;
+    }
+
+    public char getGender() {
+        return gender;
+    }
+
+    public void setGender(char gender) {
+        gender = ("" + gender).toUpperCase().charAt(0);
+        if (!(gender == 'M' || gender == 'F')) {
+            System.err.println("Invalid gender");
+            System.exit(1);
+        }
+        this.gender = gender;
+    }
+
+    public PersonClass(String name, int age, char gender) {
+        setName(name);
+        setAge(age);
+        setGender(gender);
+    }
+
+    public void eat(String food) {
+        System.out.println(name + "Eating " + food);
+    }
+
+    public void drink(String drink) {
+        System.out.println(name + "Drinking " + drink);
+    }
+
+    public String toString() {
+        return "PersonClass{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", gender=" + gender +
+                '}';
+    }
 }
 /*
 7. ScrumTeamTask:*
@@ -25,7 +86,7 @@ public class PersonClass {
 
 				work()
 
-				toString(): generate toString seperately in Employee class so that name, age, gender, id, jobTitle and salary of the emplyee can be displayed
+				toString(): generate toString separately in Employee class so that name, age, gender, id, jobTitle and salary of the emplyee can be displayed
 
 
 	3. Create a subclass of Employee named Tester:

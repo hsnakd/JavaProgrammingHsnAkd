@@ -56,7 +56,7 @@ Animal Task:
 Employee Task:
 	1. Create a class named Employee
 			Variables:
-				name, age, gender, id, jobTitle, salaryName, comapnyName
+				name, age, gender, id, jobTitle, salaryName, companyName
 
 			Add a constructor to set all the fields
 

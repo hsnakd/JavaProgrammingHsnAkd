@@ -66,6 +66,18 @@ public class CryptoTokenClass {
     public double totalPrice(){
         return price * quantity;
     }
+
+    @Override
+    public String toString() {
+        return "CryptoTokenClass{" +
+                "price=" + price +
+                ", quantity=" + quantity +
+                ", marketCap=" + marketCap +
+                ", circulatingSupply=" + circulatingSupply +
+                ", isMineable=" + isMineable +
+                ", total price=" + totalPrice() +
+                '}';
+    }
 }
 
 /*
