@@ -3,7 +3,7 @@ package day40_FinalKeyword.ZooPackage;
 
 public class Zoo {
 
-    public static void main(String[] args) {
+    public final static void main(String[] args) {
 
         Dog dog = new Dog("Max", "Husky", 'M', "White", "Large", 4);
         Cat cat = new Cat("MM", "Van", 'F', "White", "Medium", 3);

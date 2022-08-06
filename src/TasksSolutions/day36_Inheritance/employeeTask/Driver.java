@@ -9,7 +9,7 @@ public class Driver extends Employee{
 }
 
 /*
-2.5 Create the sub class of Employee named Driver:
+2.5 Create the subclass of Employee named Driver:
 			variables:
 				name, gender, age, id, jobTitle, salary
 

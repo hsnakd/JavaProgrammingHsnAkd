@@ -44,7 +44,7 @@ public class EBook extends Book {
 }
 
 /*
-Create a sub class of Book named EBook:
+Create a subclass of Book named EBook:
 			variables:
 				title, type, author, price, size, pages
 

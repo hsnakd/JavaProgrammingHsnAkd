@@ -29,14 +29,14 @@ public class CryptoToken {
     }
 
     public int getQuantity() {
-        if(quantity < 0 ){
-            System.err.println("Invalid quantity: "+quantity);
-            System.exit(1);
-        }
         return quantity;
     }
 
     public void setQuantity(int quantity) {
+        if(quantity < 0 ){
+            System.err.println("Invalid quantity: "+quantity);
+            System.exit(1);
+        }
         this.quantity = quantity;
     }
 

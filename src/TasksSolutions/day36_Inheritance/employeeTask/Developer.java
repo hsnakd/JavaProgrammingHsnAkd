@@ -14,7 +14,7 @@ public class Developer extends Employee{
 }
 
 /*
-2.3 Create the sub class of Employee named Developer:
+2.3 Create the subclass of Employee named Developer:
 			variables:
 				name, gender, age, id, jobTitle, salary
 
