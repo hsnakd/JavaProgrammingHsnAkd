@@ -7,7 +7,7 @@ public class ScrumTeam {
 
     private String PO, BA, SM;
     private ArrayList<Tester> testers;
-    private  ArrayList<Developer> developers;
+    private ArrayList<Developer> developers;
 
     public ScrumTeam(String PO, String BA, String SM) {
         setPO(PO);
@@ -41,7 +41,7 @@ public class ScrumTeam {
         this.SM = SM;
     }
 
-    // Not generating getters for tester/developers arrayList because they should only be set when tester/developer is added/removed
+    // Not generating setters for tester/developers arrayList because they should only be set when tester/developer is added/removed
 
     public ArrayList<Tester> getTesters() {
         return testers;

@@ -50,6 +50,15 @@ public class AmazonInc {
             System.out.println(developer.name+" : "+developer.salary);
         }
 
+        System.out.println("------------------------------------------------");
+        System.out.println("------------------------------------------------");
+        System.out.println(ba);
+        System.out.println(developer1);
+        System.out.println(po);
+        System.out.println(sm);
+        System.out.println(tester1);
+        System.out.println("------------------------------------------------");
+        System.out.println("------------------------------------------------");
 
 
 

@@ -49,11 +49,11 @@ public class PersonClass {
     }
 
     public void eat(String food) {
-        System.out.println(name + "Eating " + food);
+        System.out.println(name + " is eating " + food);
     }
 
     public void drink(String drink) {
-        System.out.println(name + "Drinking " + drink);
+        System.out.println(name + " is drinking " + drink);
     }
 
     public String toString() {
@@ -82,11 +82,11 @@ public class PersonClass {
 
 			Extra methods:
 				SetInfo(): sets the name, age, gender, id, jobTitle and salary of Employee Object
-							Hint: after creating setInfo method of employee class, you can call the inheritend setInfo() to set the name, age, and gender
+							Hint: after creating setInfo method of employee class, you can call the inherited setInfo() to set the name, age, and gender
 
 				work()
 
-				toString(): generate toString separately in Employee class so that name, age, gender, id, jobTitle and salary of the emplyee can be displayed
+				toString(): generate toString separately in Employee class so that name, age, gender, id, jobTitle and salary of the employee can be displayed
 
 
 	3. Create a subclass of Employee named Tester:
