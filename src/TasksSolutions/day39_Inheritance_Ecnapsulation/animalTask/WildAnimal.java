@@ -10,6 +10,8 @@ public class WildAnimal extends Animal{
         super(name, breed, age, gender, size, color);
     }
 
+
+
     public void hunt(){
         System.out.println(getName()+" is hunting");
     }
@@ -18,7 +20,7 @@ public class WildAnimal extends Animal{
 }
 
 /*
-Create a sub class of Animal named WildAnimal:
+Create a subclass of Animal named WildAnimal:
 				Variable:
 						isWild, isFriendly, isPlayable
 

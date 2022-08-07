@@ -7,8 +7,8 @@ public class ScrumTeam {
     private String PO;
     private String BA;
     private String SM;
-    private ArrayList<Tester> testers;
-    private ArrayList<Developer> developers;
+    private ArrayList<Tester> testers = new ArrayList<>();
+    private ArrayList<Developer> developers = new ArrayList<>();
 
     public String getPO() {
         return PO;
