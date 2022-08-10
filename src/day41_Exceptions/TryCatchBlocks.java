@@ -23,12 +23,13 @@ public class TryCatchBlocks {
 
         }
 
-
-
-
         System.out.println("Test1 Completed");
 
+
+
         System.out.println("------------------------------");
+
+
 
         System.out.println("Test2 started");
 
@@ -43,8 +44,7 @@ public class TryCatchBlocks {
         }catch (RuntimeException e){
 
             e.printStackTrace();
-
-           // System.out.println( e.getMessage() );
+            System.out.println( e.getMessage() );
 
         }
 

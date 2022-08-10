@@ -1,15 +1,42 @@
 package day39_Recap.Z_1_AnimalTask;
 
 public class FriendlyAnimal extends Animal {
-    public static boolean isWild = false;
-    public static boolean isFriendly = true;
-    public static boolean isPlayable =  true;
+    private boolean isWild = false;
+    private boolean isFriendly = true;
+    private boolean isPlayable =  true;
 
-    public FriendlyAnimal(String name, String breed, char gender, int age, String size, String color) {
-        super(name, breed, gender, age, size, color);
+    public boolean isWild() {
+        return isWild;
     }
 
-    public void playing(){
+    public void setWild(boolean wild) {
+        isWild = wild;
+    }
+
+    public boolean isFriendly() {
+        return isFriendly;
+    }
+
+    public void setFriendly(boolean friendly) {
+        isFriendly = friendly;
+    }
+
+    public boolean isPlayable() {
+        return isPlayable;
+    }
+
+    public void setPlayable(boolean playable) {
+        isPlayable = playable;
+    }
+
+    public FriendlyAnimal(String name, String breed, char gender, int age, String size, String color, boolean isWild, boolean isFriendly, boolean isPlayable) {
+        super(name, breed, gender, age, size, color);
+        setWild(isWild);
+        setFriendly(isFriendly);
+        setPlayable(isPlayable);
+    }
+
+    public void play(){
         System.out.println(getName() + " is playing");
     }
 

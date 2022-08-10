@@ -4,7 +4,7 @@ public class SearchTest {
 
     public static void main(String[] args) {
 
-        System.out.println("--Starting Etsy Search Smoke Test------");
+        System.out.println("--Starting Etsy Search Smoke Z------");
         // step 1 open browser
         openBrowser("Chrome");
         // step 2 navigate to the app
@@ -13,9 +13,9 @@ public class SearchTest {
         System.out.println(searchForItem("wooden spoon"));
 
         if(!verifyResultsAreDisplayed("wooden spoon")){
-            System.out.println("Search Test for Etsy PASSED");
+            System.out.println("Search Z for Etsy PASSED");
         }else {
-            System.out.println("Search Test for Etsy FAILED");
+            System.out.println("Search Z for Etsy FAILED");
         }
 
         /*

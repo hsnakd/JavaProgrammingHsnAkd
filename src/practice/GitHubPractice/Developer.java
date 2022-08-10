@@ -11,8 +11,8 @@ public class Developer extends Employee {
         this.jobDefinition = jobDefinition;
     }
 
-    public Developer(String name, char gender, int age, boolean isFullTime, String jobTitle, int employeeId, double salary, int experienceInYears, String jobDefinition) {
-        super(name, gender, age, isFullTime, jobTitle, employeeId, salary, experienceInYears);
+    public Developer(String name, char gender, int age, boolean isFullTime, int employeeId, double salary, int experienceInYears, String jobDefinition) {
+        super(name, gender, age, isFullTime, "Developer", employeeId, salary, experienceInYears);
         setJobDefinition(jobDefinition);
     }
 

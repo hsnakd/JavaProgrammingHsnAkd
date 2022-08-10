@@ -34,13 +34,13 @@ Exceptions: unexpected or unwanted events
 
 					all the RuntimeExceptions are unchecked exceptions
 
-		checked (unwanted event): occurs during the compile time
+		checked (unwanted event): occurs during compile time
 
 					all the exceptions that are not RuntimeExceptions are checked exception
 
 
 
-Exception handlings:
+Exception handling:
 		
 		1. Try & Catch blocks: used for handling checked and unchecked exceptions
 
@@ -59,7 +59,7 @@ Exception handlings:
 
 			finally block: always gets executed regardless of the exception is being handled or not handled
 
-							to stop the execution of the finally block: Syste.exit(0)
+							to stop the execution of the finally block: System.exit(0)
 
 
 Interview Question:
