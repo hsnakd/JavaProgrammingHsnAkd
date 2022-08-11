@@ -7,11 +7,26 @@ public class DisadvantageOfThrowsKeyword {
 
         System.out.println("Hello");
 
-    //    sleep(2.5); // throws
+        //    sleep(2.5); // throws
 
         System.out.println("Hello world");
 
+
         System.out.println("-------------------------");
+
+
+        try {
+            System.out.println("try");
+            sleep(2.5); // throws
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+            System.out.println("catch");
+        }
+        System.out.println("Hello world");
+
+
+        System.out.println("-------------------------");
+
 
         System.out.println("Hello");
 

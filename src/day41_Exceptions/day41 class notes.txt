@@ -55,9 +55,10 @@ Exception handling:
 						}
 
 
-			Multi-catch block: parent exception type can not be placed before the child exception type
+		Multi-catch block: parent exception type can not be placed before the child exception type
 
-			finally block: always gets executed regardless of the exception is being handled or not handled
+
+		finally block: always gets executed regardless of the exception is being handled or not handled
 
 							to stop the execution of the finally block: System.exit(0)
 
