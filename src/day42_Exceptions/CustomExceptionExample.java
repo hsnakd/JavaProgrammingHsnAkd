@@ -5,7 +5,7 @@ package day42_Exceptions;
  * @author alvin alexander, devdaily.com
  *
  */
-public class JavaCustomExceptionExample
+public class CustomExceptionExample
 {
   public static void main(String[] args)
   {
