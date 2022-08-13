@@ -1,5 +1,5 @@
 package ReplitSolutions_HsnAkd._6_Methods.GetterSetter;
-/*
+
 import java.util.Scanner;
 
 class Main {

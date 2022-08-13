@@ -1,7 +1,9 @@
 package ReplitSolutions_HsnAkd._6_Methods.GetterSetter;
-/*
+
 class Db {
 
+    private String data;
+    private int yint;
     // Do not touch
     public Db(String data, int yint) {
         this.data = data;
@@ -10,18 +12,26 @@ class Db {
     // Do not touch
 
 
+    public String getData() {
+        return data;
+    }
 
+    public void setData(String data) {
+        this.data = data;
+    }
 
+    public int getYint() {
+        return yint;
+    }
 
-
-
-
-
-
+    public void setYint(int yint) {
+        this.yint = yint;
+    }
 }
 
 /*
-The Db class will have two private instance variables. Create those variables and provide public getters and setters for them. Note: A constructor is provided.
+The Db class will have two private instance variables.
+Create those variables and provide public getters and setters for them. Note: A constructor is provided.
 
 Instance variables:
 

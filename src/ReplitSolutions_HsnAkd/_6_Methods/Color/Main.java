@@ -10,6 +10,7 @@ class Main {
         Color color2 = new Color(in.nextInt(), in.nextInt(), in.nextInt());
         System.out.println(color2.toString()) ;
 
+
     }
 }
 

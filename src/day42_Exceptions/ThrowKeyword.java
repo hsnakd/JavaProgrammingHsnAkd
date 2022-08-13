@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class ThrowKeyword {
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
 
         System.out.println("Enter your age:");  // -20
         int age = new Scanner(System.in).nextInt();
@@ -20,8 +20,14 @@ public class ThrowKeyword {
             throw new RuntimeException("You must be at least 21 years old");
         }
 
+        System.out.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
 
 
+    //   throw new Exception("Exception Error");
+
+    // Giving compile error ==> check exception
+    // 1. Add exception to method signature (public static void main(String[] args) throws Exception {
+    // 2. Surround with try/catch
 
     }
 

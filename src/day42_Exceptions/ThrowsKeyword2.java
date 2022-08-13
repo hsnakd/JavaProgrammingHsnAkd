@@ -10,7 +10,7 @@ public class ThrowsKeyword2 {
 
         System.out.println("Z completed");
 
-
+        // there is no need to use "throws ArithmeticException" for unchecked exceptions
     }
 
 }

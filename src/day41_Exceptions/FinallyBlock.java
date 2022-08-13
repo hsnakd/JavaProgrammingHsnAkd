@@ -6,6 +6,21 @@ public class FinallyBlock {
 
         int[] arr = {1,2,3};
 
+        System.out.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
+
+
+        try {
+            System.out.println(arr[10]);
+            System.out.println("Try Block");
+        }finally {
+            System.out.println("Finally Block");
+        }
+
+
+        System.out.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
+
+
+
         try {
             System.out.println(arr[10]);
             System.out.println("Try Block");
@@ -17,6 +32,7 @@ public class FinallyBlock {
             System.out.println("Finally Block");
         }
 
+        System.out.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
 
 
 
