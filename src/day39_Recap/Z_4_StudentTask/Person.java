@@ -1,6 +1,59 @@
 package day39_Recap.Z_4_StudentTask;
 
 public class Person {
+    private String name;
+    private int age;
+    private char gender;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public char getGender() {
+        return gender;
+    }
+
+    public void setGender(char gender) {
+        this.gender = gender;
+    }
+
+    public Person(String name, int age, char gender) {
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+    }
+
+    public void eat(){
+
+    }
+
+    public void drink(){
+
+    }
+
+    public void sleep(){
+
+    }
+
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", gender=" + gender +
+                '}';
+    }
 }
 /*
 Student Task:
@@ -81,13 +134,13 @@ Student Task:
 								name, age, gender, studentId, fieldOfStudy, grade, schoolName, batchNumber, groupNumber, programmingLanguage should be included
 
 
-				4. Create a class named StudentObjects:
+		4. Create a class named StudentObjects:
 
-						Create the objects of each subclasses
+			Create the objects of each subclasses
 
-						test all the functions of each objects
+			test all the functions of each objects
 
-            			Analyze the relationships between the classes
+            Analyze the relationships between the classes
 
 
  */

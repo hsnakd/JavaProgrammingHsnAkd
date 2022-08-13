@@ -1,7 +1,92 @@
 package day39_Recap.Z_3_StatesTask;
 
 public class States {
+    private String name;
+    private String abbreviation;
+    private String politicalParty;
+    private String governor;
+    private String senator;
+    private int population;
+    private double stateTax;
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getAbbreviation() {
+        return abbreviation;
+    }
+
+    public void setAbbreviation(String abbreviation) {
+        this.abbreviation = abbreviation;
+    }
+
+    public String getPoliticalParty() {
+        return politicalParty;
+    }
+
+    public void setPoliticalParty(String politicalParty) {
+        this.politicalParty = politicalParty;
+    }
+
+    public String getGovernor() {
+        return governor;
+    }
+
+    public void setGovernor(String governor) {
+        governor = governor;
+    }
+
+    public String getSenator() {
+        return senator;
+    }
+
+    public void setSenator(String senator) {
+        this.senator = senator;
+    }
+
+    public int getPopulation() {
+        return population;
+    }
+
+    public void setPopulation(int population) {
+        this.population = population;
+    }
+
+    public double getStateTax() {
+        return stateTax;
+    }
+
+    public void setStateTax(double stateTax) {
+        this.stateTax = stateTax;
+    }
+
+    public States(String name, String abbreviation, String politicalParty, String governor, String senator, int population, double stateTax) {
+        setName(name);
+        setAbbreviation(abbreviation);
+        setPoliticalParty(politicalParty);
+        setGovernor(governor);
+        setSenator(senator);
+        setPopulation(population);
+        setStateTax(stateTax);
+    }
+
+    @Override
+    public String toString() {
+        return "States{" +
+                "name='" + name + '\'' +
+                ", abbreviation='" + abbreviation + '\'' +
+                ", politicalParty='" + politicalParty + '\'' +
+                ", governor='" + governor + '\'' +
+                ", senator='" + senator + '\'' +
+                ", population=" + population +
+                ", stateTax=" + stateTax +
+                '}';
+    }
 }
 /*
 States Task:
