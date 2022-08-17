@@ -10,7 +10,7 @@ public class conditions {
 
 
     public void setName0(String name) {
-        if(name.isEmpty() || name.isBlank()){
+        if(name.isEmpty() || name.isBlank() || name == "" || name == null){
             System.err.println("Invalid name");
             System.exit(1);
         }
@@ -92,3 +92,10 @@ public class conditions {
 
 
 }
+/*
+        1. name should not be set to null
+        2. name should not be empty
+        3. name should not contain any special character other than space
+        4. age should not be set to negative
+        5. gender must be valid
+ */
