@@ -5,6 +5,7 @@ public class EmployeeObjects {
     public static void main(String[] args) {
 
         //Person person = new Person("Josh", 35, 'M');
+        //  Because Person and Employee Classes are Abstract Classes. That is why we can not create object
         //Employee employee = new Employee("Ali",30,'M',42,"SDET",145000.00);
 
         Tester tester = new Tester("Ali",30,'M',42,"SDET",145000.00);
@@ -38,6 +39,22 @@ public class EmployeeObjects {
 
 
 
+        System.out.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
+
+        PersonalTrainer personalTrainer = new PersonalTrainer("fesfew",33,'M' ,2222,"efwe", 3333) {
+            @Override
+            public void work() {
+                System.out.println("sdvsdvs");
+            }
+
+            @Override
+            public void sleep() {
+                System.out.println("sdvsdvs");
+            }
+        };
+
+        personalTrainer.sleep();
+        System.out.println(personalTrainer.getName());
 
     }
 

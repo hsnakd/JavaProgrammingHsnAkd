@@ -19,6 +19,7 @@ public final class Cat extends Animal implements Playable{
 
     @Override
     public void play() {
+        System.out.println(getName() +" is playing with mouse");
 
     }
 

@@ -32,7 +32,12 @@ public class CarShop {
         System.out.println(audi);
         System.out.println(tesla);
 
-
+        audi.start();
+        audi.stop();
+        honda.start();
+        honda.stop();
+        tesla.start();
+        tesla.stop();
 
     }
 

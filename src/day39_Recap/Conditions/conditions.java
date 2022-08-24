@@ -9,7 +9,7 @@ public class conditions {
     private int quantity;
 
 
-    public void setName0(String name) {
+    public void setName01(String name) {
         if(name.isEmpty() || name.isBlank() || name == "" || name == null){
             System.err.println("Invalid name");
             System.exit(1);
@@ -17,12 +17,15 @@ public class conditions {
         this.name = name;
     }
 
-    public void setName1(String name) {
-        if(name == ""){
-            return;
+
+
+    public void setName0(String name) {
+        if(name.isEmpty()){
+            throw new RuntimeException("Invalid Name");
         }
         this.name = name;
     }
+
 
 
     public void setRadius(int gradeNumber) {
@@ -49,16 +52,15 @@ public class conditions {
     }
 
 
-
-
-    public void setGender(char gender) {
+    public void setGender0(char gender) {
         gender = (""+gender).toUpperCase().charAt(0);
-        if(!(gender == 'M' || gender == 'F') ){
-            System.err.println("Invalid gender");
-            System.exit(1);
+        if ( !(gender == 'M' || gender =='F')){
+            throw new RuntimeException("Invalid gender: "+gender);
         }
         this.gender = gender;
     }
+
+
 
 
     public void setGender2(char gender) {

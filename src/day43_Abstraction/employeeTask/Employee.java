@@ -52,3 +52,34 @@ public abstract class Employee extends Person{
 
 
 }
+
+/**
+Employee task:
+		abstract Person:
+			name, age, gender(final)
+
+			eat();
+			sleep();
+
+		abstract Employee extends Person:
+			 id(final), jobTitle, salary...
+
+			work();
+
+
+		Tester
+			work(): testing
+
+		Developer
+			work(): developing
+
+		Teacher
+			work(): teaching
+
+		Driver
+			work(): driving
+
+		...
+
+
+ */

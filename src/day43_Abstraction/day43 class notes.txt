@@ -23,7 +23,7 @@ OOP Encapsulation: hiding the data
 
 OOP Inheritance: creating IS A relation between classes (parent/child  or super/sub)
 		
-		method overriding: giving different implementatiosn to the method
+		method overriding: giving different implementation to the method
 
 
 
@@ -49,21 +49,20 @@ Abstraction: focusing on the essentials without worrying about the small details
 
 abstract class Device{
 	tunrOff();
-
 }
-
 
 abstract class Phone extends Device{
 	call();
 }
 
-
 class Iphone extends Phone{
-	
+	tunrOff();
+	call();
 }
 
 class Samsung extends Phone{
-	
+	tunrOff();
+	call();
 }
 
 
@@ -79,7 +78,7 @@ Car Task:
 	Honda extends Car:
 		start(): twist the key to ignition
 
-	Adui extends Car:
+	Audi extends Car:
 		start(): push the start button
 
 	Tesla extends Car:
@@ -149,7 +148,7 @@ Shape task:
 
 
 
-Animnal task:
+Animal task:
 
 		abstract Animal
 

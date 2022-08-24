@@ -2,7 +2,7 @@ package day44_Abstraction.animalTask;
 
 public interface Playable {
 
-    boolean isFriendly = true; // static & final by default
+    boolean isFriendly = true; // public & static & final by default
 
     /*
     public static void method1(){
@@ -10,7 +10,12 @@ public interface Playable {
     }
     */
 
-   void play(); // abstract by default
+    void play(); // abstract by default
+
+    /** public abstract void play();   ==  abstract void play();   ==  void play();      */
+
+
+
 
 
 }
