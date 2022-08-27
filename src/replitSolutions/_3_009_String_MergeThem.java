@@ -24,7 +24,7 @@ package replitSolutions;//You have 2 words, both of them have 3 characters.
 //
 //        ```
 //        Input:
-//        java
+//        cube
 //        wow
 //
 //        Output:

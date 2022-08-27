@@ -34,7 +34,7 @@ Boolean is an object that represents a boolean
 However, unlike arrays, ArrayLists need to be imported before they can be used.
 The line that we use to do this is the following (written outside the class header on line 3):
 
-import java.util.ArrayList;
+import cube.util.ArrayList;
 This allows us to create the ArrayList object.
 
 To declare and initialize an ArrayList, we use the same code as we did to declare objects,

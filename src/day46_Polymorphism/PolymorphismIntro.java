@@ -39,7 +39,7 @@ public class PolymorphismIntro {
         Employee tester = new Tester("Ali",30,'M',42,"SDET",145000.00);
         Employee developer = new Developer("Alex",28,'M',32,"Web Developer",155000.00);
         Employee teacher = new Teacher("Angel",28,'F',22,"English Teacher",85000.00);
-        Employee driver = new Driver("Jhon",34,'M',42,"Lyft Driver",75000.00);
+        Employee driver = new Driver("John",34,'M',42,"Lyft Driver",75000.00);
 
         ArrayList<Person> cydeoEmployees = new ArrayList();
 
@@ -65,13 +65,13 @@ public class PolymorphismIntro {
 
 
             Animal animal = new Dog();
-            animal.drink()
+            animal.drink();
 
-            Animal animal = new Cat()
-            animal.drink()
+            Animal animal = new Cat();
+            animal.drink();
 
-            Animal animal = new Tiger()
-            animal.drink()
+            Animal animal = new Tiger();
+            animal.drink();
 
          */
 

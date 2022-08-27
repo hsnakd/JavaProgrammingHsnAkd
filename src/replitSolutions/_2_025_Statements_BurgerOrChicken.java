@@ -7,7 +7,7 @@ package replitSolutions;//A fast food company has two main order types, burger m
 //        - If the order is soda price is 2.0
 //        - If the order is fries price is 3.5
 //
-//        hint: or operator in java is  ||
+//        hint: or operator in cube is  ||
 //
 //        Examples:
 //

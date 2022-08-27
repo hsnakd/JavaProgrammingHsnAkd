@@ -8,7 +8,7 @@ package replitSolutions;//Write a program that will output length of the text (s
 //        ```
 //
 //        ```
-//        input: java
+//        input: cube
 //        ```
 //
 //        ```

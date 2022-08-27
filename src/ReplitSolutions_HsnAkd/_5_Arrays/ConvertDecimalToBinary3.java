@@ -45,7 +45,7 @@ public class ConvertDecimalToBinary3 {
 A Binary number is a number expressed in the base-2 numeral system or binary numeral system,
 which uses only two symbols: 0 (zero) and 1 (one). Each digit is referred to as a bit.
 
-Given an int variable decimal, write java program to calculate binary value of the decimal variable
+Given an int variable decimal, write cube program to calculate binary value of the decimal variable
 and assign it to a binary array. Print out value of binary array matching below format.
 Feel free to use additional arrays or formulas.
 

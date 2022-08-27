@@ -3,7 +3,7 @@ package day24_CustomMethods_Return;
 public class Z_1_FrequencyOfWord {
     public static void main(String[] args) {
 
-        String sentence = "Java java java python python";
+        String sentence = "Java cube cube python python";
         String word = "java";
         System.out.println(frequencyOfWord(sentence,word));
     }
@@ -31,8 +31,8 @@ public class Z_1_FrequencyOfWord {
 1.  create a method named frequencyOfWord that passes two parameters:
     string sentence and String word, then returns the frequency of word from the sentence
         Ex:
-        sentence = "Java java java python python";
-        word = "java";
+        sentence = "Java cube cube python python";
+        word = "cube";
         frequencyOfWord(sentence, word) ==>  3
 
  */

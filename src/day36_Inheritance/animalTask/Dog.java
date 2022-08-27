@@ -1,6 +1,6 @@
 package day36_Inheritance.animalTask;
 
-public class Dog extends Animal  { //Dog Is An animal
+public class Dog extends Animal { //Dog Is An animal
     //      child        parent
 
     public void bark(){

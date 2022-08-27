@@ -32,7 +32,7 @@ public class PrintShortestWord {
 /*
 Write a program that will print the shortest word in the given array str.
 
-input: java, cable, red, vivid, remedy, grace
+input: cube, cable, red, vivid, remedy, grace
 
 output: red
  */

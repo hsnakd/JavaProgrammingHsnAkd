@@ -1,4 +1,4 @@
-package day44_Abstraction.Z_2_DeviceTAsk;
+package day44_Abstraction.Z_2_DeviceTask;
 
 public interface AndroidApps extends Downloadable{
 
@@ -9,5 +9,6 @@ public interface AndroidApps extends Downloadable{
 
 			Variables:
 				AppStoreName, OS
+
 
  */

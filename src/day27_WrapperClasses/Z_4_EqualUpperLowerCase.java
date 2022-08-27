@@ -2,7 +2,7 @@ package day27_WrapperClasses;
 
 public class Z_4_EqualUpperLowerCase {
     public static void main(String[] args) {
-        String str = "JAVA java";
+        String str = "JAVA cube";
         boolean equal = equalUpperLowerCase(str);
         System.out.println(equal);
     }
@@ -35,7 +35,7 @@ public class Z_4_EqualUpperLowerCase {
 4. Write program that returns true
     if the total number of upper case characters are equal to total number of Lowercase characters of a string
 		Ex:
-			str = "JAVA java";
+			str = "JAVA cube";
 
 		output:
 			true

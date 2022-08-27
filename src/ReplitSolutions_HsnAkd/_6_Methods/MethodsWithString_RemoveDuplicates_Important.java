@@ -30,7 +30,7 @@ uniqueChars is a method that will accept any String and return String with out a
 
 Examples:
 
-uniqueChars("java") ==> "jav"
+uniqueChars("cube") ==> "jav"
 uniqueChars("mama") ==> "ma"
 uniqueChars("spoon") ==> "spon"
 

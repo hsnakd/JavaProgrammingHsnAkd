@@ -11,7 +11,7 @@ package replitSolutions;//Write a method **mergeStrings** that will return the s
 //        ```
 //        mergeStrings("wooden", "spoon") ==> "wsopoodoenn"
 //
-//        mergeStrings("java", "selenium") ==> "jsaevlaenium"
+//        mergeStrings("cube", "selenium") ==> "jsaevlaenium"
 //        ```
 
 import java.util.Scanner;

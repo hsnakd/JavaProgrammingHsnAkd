@@ -4,8 +4,8 @@ public class Cylinder extends Shape implements Volume{
 
 
 
-    public Cylinder(String name) {
-        super(name);
+    public Cylinder() {
+        super("Cylinder");
     }
 
     @Override

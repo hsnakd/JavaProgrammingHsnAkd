@@ -1,8 +1,8 @@
 package day45_Abstraction.shape;
 
 public class Rectangle extends Shape {
-    public Rectangle(String name) {
-        super(name);
+    public Rectangle() {
+        super("Rectangle");
     }
 
     @Override

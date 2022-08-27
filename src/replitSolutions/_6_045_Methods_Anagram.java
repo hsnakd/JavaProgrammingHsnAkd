@@ -27,7 +27,7 @@ package replitSolutions;//**_Anagram_** is a word, phrase, or name formed by rea
 //        ```
 //
 //        ```
-//        isAnagram("java", "cava") ==> false
+//        isAnagram("cube", "cava") ==> false
 //        ```
 
 

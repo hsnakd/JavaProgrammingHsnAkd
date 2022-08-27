@@ -13,7 +13,7 @@ package replitSolutions;//The **coverString** method will take 2 string paramete
 //        Examples:
 //
 //        ```
-//        coverString("java methods", "me") ) ; ==> "java [me]thods"
+//        coverString("cube methods", "me") ) ; ==> "cube [me]thods"
 //        ```
 //
 //        ```

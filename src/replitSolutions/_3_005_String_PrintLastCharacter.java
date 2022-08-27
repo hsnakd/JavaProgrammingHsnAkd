@@ -2,7 +2,7 @@ package replitSolutions;//Write a program that will print out last letter of the
 //
 //        Ex:
 //        ```
-//        Input: java
+//        Input: cube
 //        ```
 //        ```
 //        Output: a

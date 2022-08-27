@@ -27,7 +27,7 @@ If the word does not meet the requirements print invalid.
 fifteen ==> fte
 apple ==> ppl
 hey ==> invalid
-java ==> invalid
+cube ==> invalid
 whatsup ==> ats
 $ ==> invalid
  */

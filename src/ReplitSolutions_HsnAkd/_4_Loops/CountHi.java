@@ -36,7 +36,7 @@ input: abc hi how hi
 output: 2
 Example:
 
-input: hi code java please
+input: hi code cube please
 
 output: 1
 

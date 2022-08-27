@@ -4,7 +4,7 @@ package replitSolutions;//Write a program that will print out first half of the 
 //        Example:
 //
 //        ```
-//        input: java
+//        input: cube
 //
 //        output: jaja
 //        ```

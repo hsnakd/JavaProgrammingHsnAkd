@@ -1,10 +1,10 @@
-package replitSolutions;//Given a string, print out true if the number of appearances of "java" anywhere in the string is equal to the number of appearances of "python" anywhere in the string (case sensitive).
+package replitSolutions;//Given a string, print out true if the number of appearances of "cube" anywhere in the string is equal to the number of appearances of "python" anywhere in the string (case sensitive).
 //
 //        Example:
 //
 //
 //        ```
-//        input: We study java not python
+//        input: We study cube not python
 //
 //        output: true
 //        ```
@@ -14,7 +14,7 @@ package replitSolutions;//Given a string, print out true if the number of appear
 //
 //
 //        ```
-//        input: What's the difference between java, javascript and python?
+//        input: What's the difference between cube, javascript and python?
 //
 //        output: false
 //        ```
@@ -30,7 +30,7 @@ public class _4_011_Loops_EqualsJavaPython {
         int countOfPython = 0;
         int lastIndex;
 
-        //for java
+        //for cube
         lastIndex=0;
         while(lastIndex != -1)
         {

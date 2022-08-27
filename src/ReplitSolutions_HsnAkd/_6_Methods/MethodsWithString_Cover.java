@@ -45,7 +45,7 @@ Your job is to write an important code that will :
 
 Examples:
 
-coverString("java methods", "me") ) ; ==> "java [me]thods"
+coverString("cube methods", "me") ) ; ==> "cube [me]thods"
 
 coverString("Certified Wooden Spoon", "o") ) ; ==> "Certified W[o][o]den Sp[o][o]n"
 

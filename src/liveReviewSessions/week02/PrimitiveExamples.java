@@ -54,7 +54,7 @@ public class PrimitiveExamples {
         String str = ""+'J'+'a'+'v'+'a';  // empty ""; makes all the chars coming after to turn into Strings
         System.out.println("str = " + str);  // Java
 /*
-Note: Important rulo of Java --> java runs from left to right : String+char = String
+Note: Important rulo of Java --> cube runs from left to right : String+char = String
 "C"  --- > String
 'C'  ----> char
 
@@ -86,7 +86,7 @@ Note: Important rulo of Java --> java runs from left to right : String+char = St
     EU9 : V --- we can use numbers if they are not first characters
     ABC : V
     println : V not a reserved word
-    for : I reserved word for java
+    for : I reserved word for cube
     "hello" : I starts with "
     sum_of_data : V
     first-name : I  we can not use - dash

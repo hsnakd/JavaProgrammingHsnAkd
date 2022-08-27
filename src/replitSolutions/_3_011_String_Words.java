@@ -2,7 +2,7 @@ package replitSolutions;//In this assignment you are given two string variables 
 //
 //        Check if they are equal
 //
-//        _Comparison should be case sensitive. "java" and "JaVa" are not equal._
+//        _Comparison should be case sensitive. "cube" and "JaVa" are not equal._
 //
 //        if they are equal output  "word1 equals word2"
 //
@@ -10,8 +10,8 @@ package replitSolutions;//In this assignment you are given two string variables 
 //
 //        ```
 //        Input:
-//        java
-//        java
+//        cube
+//        cube
 //
 //        output:
 //        word1 equals word2

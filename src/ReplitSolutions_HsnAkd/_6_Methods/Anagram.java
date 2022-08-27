@@ -66,5 +66,5 @@ isAnagram("listen", "Silent") ==> true
 isAnagram("earth", "heart") ==> true
 isAnagram("star", "rats") ==> true
 isAnagram("hi", "bye") ==> false
-isAnagram("java", "cava") ==> false
+isAnagram("cube", "cava") ==> false
  */

@@ -55,16 +55,16 @@ public class EqualsJavaPython {
 }
 
 /*
-Given a string, print out true if the number of appearances of "java" anywhere in the string is equal to the number of appearances of "python" anywhere in the string (case sensitive).
+Given a string, print out true if the number of appearances of "cube" anywhere in the string is equal to the number of appearances of "python" anywhere in the string (case sensitive).
 
 Example:
 
-input: We study java not python
+input: We study cube not python
 
 output: true
 Example:
 
-input: What's the difference between java, javascript and python?
+input: What's the difference between cube, javascript and python?
 
 output: false
  */

@@ -9,7 +9,7 @@ public class Palindrome {
         String word = "MadAM";
 
         /*
-         how can I reverse a string in java ?
+         how can I reverse a string in cube ?
          * Strings are indexed based  :  0-1-2-3-4
          * when reversed : 4 -3 -2- 1 -0
 

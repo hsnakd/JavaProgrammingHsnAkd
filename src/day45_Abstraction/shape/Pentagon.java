@@ -1,8 +1,8 @@
 package day45_Abstraction.shape;
 
 public class Pentagon extends Shape{
-    public Pentagon(String name) {
-        super(name);
+    public Pentagon() {
+        super("Pentagon");
     }
 
     @Override

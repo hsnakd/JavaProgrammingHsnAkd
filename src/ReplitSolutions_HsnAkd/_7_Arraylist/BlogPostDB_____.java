@@ -75,4 +75,7 @@ blogDb(r,"2")
 returns:
 another title
 content2
+
+https://learn.cybertekschool.com/courses/784/pages/216-methodwitharraylist-blogpostdb-2?module_item_id=54680
+
  */

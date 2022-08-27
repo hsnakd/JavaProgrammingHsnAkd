@@ -47,9 +47,9 @@ Every single unique word should be printed from the new line.
 
 Example:
 
-input:[java, code, python, code, rust, code, rust]
+input:[cube, code, python, code, rust, code, rust]
 
 output:
-java
+cube
 python
  */

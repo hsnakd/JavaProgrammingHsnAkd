@@ -30,7 +30,7 @@ public class Z_2_ClassmatesReversed {
 2. create string array, and store the names of your  classmates (10)
             reverse each students names and print them in separate lines
             	ex:
-            		arr = {java, python, c#}
+            		arr = {cube, python, c#}
 
         		output:
         			avaJ

@@ -3,7 +3,7 @@ package replitSolutions;//**uniqueChars** is a method that will accept any Strin
 //        Examples:
 //
 //        ```
-//        uniqueChars("java") ==> "jav"
+//        uniqueChars("cube") ==> "jav"
 //        ```
 //
 //        ```

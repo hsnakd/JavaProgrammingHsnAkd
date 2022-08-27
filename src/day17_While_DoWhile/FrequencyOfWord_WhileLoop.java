@@ -34,7 +34,7 @@ public class FrequencyOfWord_WhileLoop {
 
         System.out.println("----------------------------------------");
 
-        String s = "java java java python python python";
+        String s = "cube cube cube python python python";
 
         int countJava =0;
         int countPython = 0;

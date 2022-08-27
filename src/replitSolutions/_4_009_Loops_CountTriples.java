@@ -25,7 +25,7 @@ package replitSolutions;//We'll say that a "triple" in a string is a char appear
 //
 //
 //        ```
-//        input: java
+//        input: cube
 //
 //        output: 0
 //        ```

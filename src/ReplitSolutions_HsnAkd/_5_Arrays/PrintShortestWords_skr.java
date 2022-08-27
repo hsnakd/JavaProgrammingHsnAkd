@@ -41,7 +41,7 @@ Print array with Arrays.toString() method. Sort array before printing.
 
 Hint: Split values by comma: split(", ");
 
-input: olive, fish, pursuit, old, warning, python, java, coffee, cat, ray
+input: olive, fish, pursuit, old, warning, python, cube, coffee, cat, ray
 
 output: [cat, old, ray]
  */

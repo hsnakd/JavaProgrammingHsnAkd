@@ -1,6 +1,11 @@
-package day44_Abstraction.Z_2_DeviceTAsk;
+package day44_Abstraction.Z_2_DeviceTask;
 
-public abstract class Phone {
+public abstract class Phone extends Device{
+
+    public Phone(String brand, String model, double price, String color, String size, boolean hasBattery, boolean hasPowerButton) {
+        super(brand, model, price, color, size, hasBattery, hasPowerButton);
+    }
+
     public void call(long phoneNum){
         System.out.println(phoneNum + " is calling");
     }
@@ -8,6 +13,7 @@ public abstract class Phone {
     public void text(long phoneNum){
         System.out.println(phoneNum + " is texting");
     }
+
 
 
 }

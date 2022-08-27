@@ -3,8 +3,8 @@ package day45_Abstraction.shape;
 public class Cube extends Shape implements Volume{
 
 
-    public Cube(String name) {
-        super(name);
+    public Cube() {
+        super("Cube");
     }
 
     @Override

@@ -3,7 +3,7 @@ package TasksSolutions.day21_ForEachLoop;
 public class JavaAndPython {
 
     public static void main(String[] args){
-        String sentence = "java java python python java python";
+        String sentence = "cube cube python python cube python";
         String[] words = sentence.split(" ");
         
         int countJava = 0,
@@ -23,7 +23,7 @@ public class JavaAndPython {
 
 }
 /*
-6. Write a program that can return the number of appearances of “java” and “python” anywhere in the sentence.
+6. Write a program that can return the number of appearances of “cube” and “python” anywhere in the sentence.
 				(similar to the task in repl.it, but this time you MUST use arrays and for each loop)
 
  */

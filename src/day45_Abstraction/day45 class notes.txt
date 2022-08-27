@@ -1,6 +1,6 @@
 Java Day45
 Topics: OOP Abstraction Continue:
-					Interface
+					Interface...
 					Interface vs Abstract class
 					extends vs implements
 					
@@ -15,7 +15,7 @@ class: blueprint of objects
 	   can be final
 
 
-abstract class: meant to be parent 
+abstract class: meant to be a parent 
 			    can have abstract method
 			    can not be instantiated
 			    can not be final
@@ -43,7 +43,7 @@ interface: blueprint of class
 		   		Instance methods
 		   		Constructor
 		   		Blocks
-		   		private, deafult, protected access mdofiers
+		   		private, default, protected access mdofiers
 
 		   why we need interface?
 		   		one class can extend one class ONLY
@@ -55,7 +55,7 @@ interface: blueprint of class
 
 
 
-Abastract class vs interface: both are used for achieving abstraction
+Abstract class vs interface: both are used for achieving abstraction
 							  both can not be instantiated
 							  both can not be final
 							  both are meant to be inherited
@@ -67,7 +67,7 @@ Abastract class vs interface: both are used for achieving abstraction
 
 		  					can have constructor
 
-		  					4 access mdofiers
+		  					4 access modifiers
 
 		  	interface: one class can implement multiple interfaces
 

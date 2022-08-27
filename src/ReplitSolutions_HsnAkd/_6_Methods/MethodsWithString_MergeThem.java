@@ -52,5 +52,5 @@ mergeStrings(s1,s2) ==> "1a2b3c4d5e"
 
 mergeStrings("wooden", "spoon") ==> "wsopoodoenn"
 
-mergeStrings("java", "selenium") ==> "jsaevlaenium"
+mergeStrings("cube", "selenium") ==> "jsaevlaenium"
  */

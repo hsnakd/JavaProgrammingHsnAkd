@@ -1,6 +1,6 @@
 package day12_Scanner;
 
-    // import java.util.*; wild import : imports everything from the package
+    // import cube.util.*; wild import : imports everything from the package
 
 import java.util.Scanner; // regular import : imports one class from the package
 

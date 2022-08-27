@@ -22,7 +22,7 @@ public class WrapperClassExamples {
         int n2 = n1; // un-boxing to primitive
         n2 = arrayList.get(1); // getting an Object from arrayList and assigning to primitive : un-boxing
 
-        String searchResult = "1-48 of over 6000 results for java";
+        String searchResult = "1-48 of over 6000 results for cube";
         String[] arr = searchResult.split(" ");
         System.out.println(Arrays.toString(arr));
 

@@ -27,7 +27,7 @@ public class CountJava {
 
 /*
 
-Print the number of times that the string "java" appears anywhere in the given string word
+Print the number of times that the string "cube" appears anywhere in the given string word
 
 Example:
 

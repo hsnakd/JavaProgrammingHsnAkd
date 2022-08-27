@@ -15,7 +15,7 @@ package replitSolutions;//Print out the number of times that the string "hi" app
 //
 //
 //        ```
-//        input: hi code java please
+//        input: hi code cube please
 //
 //        output: 1
 //        ```

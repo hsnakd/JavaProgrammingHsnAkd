@@ -35,7 +35,7 @@ Question-1:
 
     //    System.out.println(i);
 /*
-How can I use "int i" variable declaration twice inside same java class?
+How can I use "int i" variable declaration twice inside same cube class?
  int i : is local to the for loop that we created
  */
         System.out.println("----------------------------------------");

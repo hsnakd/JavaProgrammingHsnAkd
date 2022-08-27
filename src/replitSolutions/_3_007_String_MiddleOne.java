@@ -27,7 +27,7 @@ package replitSolutions;//You have a word, do the following:
 //        - **4 or more characters**, print the middle 2 characters
 //
 //        ```
-//        java ==> av
+//        cube ==> av
 //        ```
 //
 //        ```

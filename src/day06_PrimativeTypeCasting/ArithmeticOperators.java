@@ -85,7 +85,7 @@ public class ArithmeticOperators {
             in math:
                 10/4 = 2.5
                 100/3 = 33.333....
-            in java:
+            in cube:
                 10/4 = 2
                 10.0/4 = 2.5
                 100/3 = 33

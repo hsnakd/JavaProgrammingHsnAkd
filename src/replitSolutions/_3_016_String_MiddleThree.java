@@ -12,7 +12,7 @@ package replitSolutions;//Given a String variable **word** print the middle thre
 //        ```
 //
 //        ```
-//        java ==> invalid
+//        cube ==> invalid
 //        ```
 //
 //        ```

@@ -57,7 +57,7 @@ input: xxxabyyyycd
 output: 3
 Example:
 
-input: java
+input: cube
 
 output: 0
 

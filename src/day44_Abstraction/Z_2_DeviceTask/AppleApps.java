@@ -1,4 +1,4 @@
-package day44_Abstraction.Z_2_DeviceTAsk;
+package day44_Abstraction.Z_2_DeviceTask;
 
 public interface AppleApps extends Downloadable{
 
