@@ -2,27 +2,31 @@ package day44_Abstraction.Z_1_CarTask;
 
 public class Nio extends Car implements AutoPark, AutoPilot{
 
-    public Nio(String make, String model, int year, double price, String color) {
-        super(make, model, year, price, color);
+    public Nio(String model, int year, double price, String color) {
+        super("Nio", model, year, price, color);
     }
 
     @Override
     public void start() {
+        System.out.println("Has " + getMake() + getModel() + " start feature");
 
     }
 
     @Override
     public void drive() {
+        System.out.println("Has " + getMake() + getModel() + " drive feature");
 
     }
 
     @Override
     public void autoPark() {
+        System.out.println("Has " + getMake() + getModel() + " auto park feature");
 
     }
 
     @Override
     public void selfDrive() {
+        System.out.println("Has " + getMake() + getModel() + " self drive feature");
 
     }
 }

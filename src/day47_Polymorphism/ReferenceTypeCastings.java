@@ -43,7 +43,7 @@ public class ReferenceTypeCastings {
 
         System.out.println("---------------------------------------------------");
 
-        Animal animal2 = new Cat("Jim", "Scotish", 'M', 3, "Small", "White");
+        Animal animal2 = new Cat("Jim", "Scottish", 'M', 3, "Small", "White");
 
         //Cat cat = (Cat) animal2;
        // cat.meow();

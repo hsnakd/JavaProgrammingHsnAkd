@@ -2,17 +2,19 @@ package day44_Abstraction.Z_1_CarTask;
 
 public class Toyota extends Car{
 
-    public Toyota(String make, String model, int year, double price, String color) {
-        super(make, model, year, price, color);
+    public Toyota(String model, int year, double price, String color) {
+        super("Toyota", model, year, price, color);
     }
 
     @Override
     public void start() {
+        System.out.println("Has " + getMake() + getModel() + " start feature");
 
     }
 
     @Override
     public void drive() {
+        System.out.println("Has " + getMake() + getModel() + " drive feature");
 
     }
 }

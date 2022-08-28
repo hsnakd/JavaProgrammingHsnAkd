@@ -1,9 +1,9 @@
 package day44_Abstraction.Z_1_CarTask;
 
 public interface AutoPark {
-    public boolean hasAutoPark = false;
+    boolean hasAutoPark = true;
 
-    public abstract void autoPark();
+   void autoPark();
 
 }
 /*

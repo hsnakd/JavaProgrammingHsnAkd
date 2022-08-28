@@ -2,23 +2,23 @@ package day44_Abstraction.Z_1_CarTask;
 
 public class Audi extends Car implements AutoPark{
 
-    public Audi(String make, String model, int year, double price, String color) {
-        super(make, model, year, price, color);
+    public Audi(String model, int year, double price, String color) {
+        super("Audi", model, year, price, color);
     }
 
     @Override
     public void start() {
-
+        System.out.println("Has " + getMake() + getModel() + " start feature");
     }
 
     @Override
     public void drive() {
-
+        System.out.println("Has " + getMake() + getModel() + " drive feature");
     }
 
     @Override
     public void autoPark() {
-
+        System.out.println("Has " + getMake() + getModel() + " auto park feature");
     }
 }
 

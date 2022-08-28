@@ -1,9 +1,9 @@
 package day44_Abstraction.Z_1_CarTask;
 
 public interface Flyable {
-    public boolean canFly = false;
+    boolean canFly = true;
 
-    public abstract void fly();
+    void fly();
 
 }
 /*

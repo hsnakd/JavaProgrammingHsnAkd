@@ -39,7 +39,7 @@ Dynamic Polymorphism: Method overriding
 
 					 eat():
 
-					 implementation1: bakla
+					 implementation1: baklava
 					 implementation2: Java
 					 ...
 
@@ -85,10 +85,10 @@ casting: converting one type to another
 
 
 
-OOP: Object Oreinted Programming
+OOP: Object Oriented Programming
 
 	Advantages:
-		improves rusuability
+		improves reusability
 		easy to maintain
 		less memory
 		less codes
@@ -118,10 +118,10 @@ OOP: Object Oreinted Programming
 
 				child class: inherits all the variable & methods (that are visible) from the parent class
 
-				parent class: does not inherit any thing from child class
+				parent class: does not inherit anything from child class
 
 
-				Object class is the parent of all the classes by deafult
+				Object class is the parent of all the classes by default
 
 
 				abstract TesteBase

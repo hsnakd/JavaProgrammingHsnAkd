@@ -1,9 +1,9 @@
 package day44_Abstraction.Z_1_CarTask;
 
 public interface AutoPilot extends AutoPark{
-    public boolean hasAutoPilot = false;
+     boolean hasAutoPilot = true;
 
-    public abstract void selfDrive();
+     void selfDrive();
 }
 
 /*

@@ -2,17 +2,19 @@ package day44_Abstraction.Z_1_CarTask;
 
 public class Honda extends Car{
 
-    public Honda(String make, String model, int year, double price, String color) {
-        super(make, model, year, price, color);
+    public Honda(String model, int year, double price, String color) {
+        super("Honda", model, year, price, color);
     }
 
     @Override
     public void start() {
+        System.out.println("Has " + getMake() + getModel() + " start feature");
 
     }
 
     @Override
     public void drive() {
+        System.out.println("Has " + getMake() + getModel() + " drive feature");
 
     }
 }
