@@ -2,6 +2,9 @@ package day45_Abstraction.BrowsersTask;
 
 public class EdgeDriver extends RemoteWebDriver{
 
+    public EdgeDriver(String browserName) {
+        super(browserName);
+    }
 }
 /*
 

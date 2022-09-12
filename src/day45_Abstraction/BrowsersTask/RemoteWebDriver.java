@@ -1,10 +1,14 @@
 package day45_Abstraction.BrowsersTask;
 
 public class RemoteWebDriver implements WebDriver, TakeScreenShot, JavaScriptExecuter {
-    private final String browserName= "Chrome";
+    private final String browserName;
 
     public String getBrowserName() {
         return browserName;
+    }
+
+    public RemoteWebDriver(String browserName) {
+        this.browserName = browserName;
     }
 
     public void RemoteWebDriver() {

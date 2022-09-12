@@ -1,6 +1,7 @@
 package day44_Abstraction.Z_2_DeviceTask;
 
 public interface Downloadable {
+    void downloadApp();
 }
 
 /*

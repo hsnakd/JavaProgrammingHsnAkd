@@ -52,6 +52,16 @@ public class Dog extends Animal {
                 "Age in calendar years: " + getAge() + "\n" +
                 "Age in human years: " + getAgeInHumanYears();
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if ( obj instanceof Dog ){
+            return breed.equals(((Dog)obj).getBreed());
+        }else {
+            return false;
+        }
+    }
+
 }
 /*
 *   Write an abstract class Animal that contains 2 instance variables: `name` and `age`.

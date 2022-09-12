@@ -8,11 +8,30 @@ public class conditions {
     private char grade;
     private int quantity;
 
+    int countSpecial =0;
+    int countDigit =0;
+    int countSpace =0;
+    boolean result = true;
+
 
     public void setName01(String name) {
-        if(name.isEmpty() || name.isBlank() || name == "" || name == null){
-            System.err.println("Invalid name");
-            System.exit(1);
+        if(name.isEmpty() || name.isBlank() || name == null ){
+
+            for (int i = 0; i <  name.length(); i++) {
+
+                if (Character.isDigit(name.charAt(i))) {
+                    countDigit++;
+                }else if ((name.charAt(i) == ' ')) {
+                    countSpace++;
+                }else {
+                    countSpecial++;
+                }
+            }
+            if (countSpecial > 0 && countDigit > 0 && countSpace==0) {
+                result = false;
+            }
+
+            throw new RuntimeException("Invalid Make : " + name );
         }
         this.name = name;
     }
@@ -98,6 +117,7 @@ public class conditions {
         1. name should not be set to null
         2. name should not be empty
         3. name should not contain any special character other than space
+
         4. age should not be set to negative
         5. gender must be valid
  */

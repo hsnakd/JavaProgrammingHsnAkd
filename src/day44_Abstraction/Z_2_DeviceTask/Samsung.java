@@ -15,6 +15,11 @@ public class Samsung extends Phone implements AndroidApps, Downloadable{
     public void turnOff() {
 
     }
+
+    @Override
+    public void downloadApp() {
+
+    }
 }
 /*
 

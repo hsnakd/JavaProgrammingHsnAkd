@@ -1,6 +1,9 @@
 package day44_Abstraction.Z_2_DeviceTask;
 
 public interface AndroidApps extends Downloadable{
+    String AppStoreName = "Play Store";
+    String OS = "Android";
+
 
 }
 /*

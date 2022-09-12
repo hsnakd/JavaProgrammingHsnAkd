@@ -2,6 +2,9 @@ package day45_Abstraction.BrowsersTask;
 
 public class ChromeDriver extends RemoteWebDriver{
 
+    public ChromeDriver(String browserName) {
+        super(browserName);
+    }
 }
 /*
 

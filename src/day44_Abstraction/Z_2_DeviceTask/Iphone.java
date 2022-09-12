@@ -18,6 +18,10 @@ public class Iphone extends Phone implements AppleApps, Downloadable{
     }
 
 
+    @Override
+    public void downloadApp() {
+
+    }
 }
 /*
 

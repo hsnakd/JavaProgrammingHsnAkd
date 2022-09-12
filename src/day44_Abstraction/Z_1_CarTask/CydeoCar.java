@@ -18,7 +18,7 @@ public class CydeoCar extends Car implements AutoPark, AutoPilot, Flyable{
 
     @Override
     public void autoPark() {
-        System.out.println("Has " + getMake() + getModel() + " auto park feature");
+        System.out.println("Has " + getMake() + getModel() + " auto park feature" + hasAutoPark);
     }
 
     @Override

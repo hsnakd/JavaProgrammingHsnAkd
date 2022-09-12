@@ -2,6 +2,9 @@ package day45_Abstraction.BrowsersTask;
 
 public class FireFoxDriver extends RemoteWebDriver{
 
+    public FireFoxDriver(String browserName) {
+        super(browserName);
+    }
 }
 /*
 

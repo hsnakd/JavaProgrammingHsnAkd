@@ -76,14 +76,14 @@ multi-tasking: two or more process are running
 
 
 
-concurrently vs parellely:
+concurrently vs parallelly:
 
 		concurrently:  1000 * 5 ===> 5000 seconds ===> 10000 threads
 			
 			chromer browser (process)	 ===> 10000 threads
 
 
-		Parallely: 	200 * 5 = 1000 seconds
+		Parallelly: 	200 * 5 = 1000 seconds
 
 			chrome browser1	 (process)  ===> 200
 			chrome browser2  (process)	===> 200

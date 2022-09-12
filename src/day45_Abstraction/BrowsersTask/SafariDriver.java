@@ -2,6 +2,9 @@ package day45_Abstraction.BrowsersTask;
 
 public class SafariDriver extends RemoteWebDriver{
 
+    public SafariDriver(String browserName) {
+        super(browserName);
+    }
 }
 /*
 
