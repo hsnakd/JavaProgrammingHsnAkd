@@ -41,6 +41,8 @@ public class MapMethods {
         System.out.println(students);
 
         students.remove("Ozan");
+        // System.out.println("remove boolean" + students.remove("Ozan", 98));
+
 
         System.out.println(students);
 

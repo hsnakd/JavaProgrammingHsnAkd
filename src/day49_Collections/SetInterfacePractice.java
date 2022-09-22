@@ -15,8 +15,8 @@ public class SetInterfacePractice {
 
         System.out.println("list = " + list);
         System.out.println( list.get(4) );
-        
 
+        /**   HashSet  */
         Set<Integer> hashSet = new HashSet<>();
         hashSet.addAll(Arrays.asList(10, 200, 300, 40, 90));
         hashSet.addAll(Arrays.asList(10, 200, 300, 40, 90));
@@ -26,9 +26,10 @@ public class SetInterfacePractice {
         hashSet.addAll(Arrays.asList(null, null, null));
 
         System.out.println("hashSet = " + hashSet);
+        System.out.println("hashSet2 = " + hashSet);
       //  System.out.println( hashSet.get(4) );
 
-
+        /**   LinkedHashSet  */
         Set<Integer> linkedHashSet = new LinkedHashSet<>();
         linkedHashSet.addAll(Arrays.asList(10, 200, 300, 40, 90));
         linkedHashSet.addAll(Arrays.asList(10, 200, 300, 40, 90));
@@ -39,6 +40,7 @@ public class SetInterfacePractice {
 
         System.out.println("linkedHashSet = " + linkedHashSet);
 
+        /**   TreeSet  */
         Set<Integer> treeSet = new TreeSet<>();
 
         treeSet.addAll(Arrays.asList(10,200,300,40,90));
@@ -51,7 +53,7 @@ public class SetInterfacePractice {
 
         System.out.println("treeSet = " + treeSet);
 
-     //   String str = null;
+       // String str = null;
        // System.out.println(str.charAt(0));
 
 

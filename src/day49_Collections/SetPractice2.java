@@ -9,19 +9,29 @@ public class SetPractice2 {
         String[] arr = {"Wooden Spoon", "Book", "Pen", "Phone", "Wooden Spoon",
                 "Wooden Spoon", "Wooden Spoon", "Wooden Spoon", "Milk", "Eggs", "Coke", "Paper towels"};
 
-         arr = new LinkedHashSet<>( Arrays.asList(arr) ).toArray(new String[0]);
+        String[] arr2 = {"Wooden Spoon", "Book", "Pen", "Phone", "Wooden Spoon",
+                        "Wooden Spoon", "Wooden Spoon", "Wooden Spoon", "Milk", "Eggs", "Coke", "Paper towels"};
+
+        //random order & duplicates are not allowed
+         arr = new HashSet<>( Arrays.asList(arr) ).toArray(new String[0]);
+
+         // Insertion order & duplicates are not allowed
+         arr2 = new LinkedHashSet<>( Arrays.asList(arr2) ).toArray(new String[0]);
+
         /*
         Set<String> set1 = new HashSet<>( Arrays.asList(arr));
         arr = set1.toArray(new String[0]);
         System.out.println(set1);
-
+        System.out.println( Arrays.toString(arr));
          */
 
         System.out.println( Arrays.toString(arr));
+        System.out.println( Arrays.toString(arr2));
 
 
         ArrayList<Integer> list = new ArrayList<>();
         list.addAll(Arrays.asList(1000, 300, 1000, 200, 300, 400, 500, 500, 600, 10, 10, 20, 30, 40, 30, 20, 10));
+        System.out.println(list);
 
         list = new ArrayList<>(  new LinkedHashSet<>(list)  );
 
