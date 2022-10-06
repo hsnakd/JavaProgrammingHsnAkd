@@ -43,8 +43,8 @@ public class MapPractice2 {
         }
 
 
-        System.out.println(name1);
-        System.out.println(name2);
+        System.out.println("Max Salary : " + name1);
+        System.out.println("Min Salary : " + name2);
 
 
         System.out.println("----------------------------------------------");

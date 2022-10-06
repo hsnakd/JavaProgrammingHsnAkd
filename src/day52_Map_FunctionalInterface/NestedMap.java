@@ -40,6 +40,7 @@ public class NestedMap {
 
         System.out.println("------------------------------------------------");
 
+        System.out.println( mapOfMap.get(map1) );
         System.out.println( mapOfMap.get(map1).get("Veronica") );
 
         System.out.println("------------------------------------------------");
@@ -54,10 +55,12 @@ public class NestedMap {
 }
 
 /*
-    Id   JobTitle  Name  Salary
-    11, "SDET"    "Shay", 100000
-    12  "SM"     "Hulya", 110000
-    13, "BA"     "Veronica", 115000
+        Id      JobTitle        Name            Salary
+        11,     "SDET"          "Shay",         100000
+        12      "SM"            "Hulya",        110000
+        13,     "BA"            "Veronica",     115000
+        14,     "Developer"     "Ali",          150000
+        15,     "PO"            "Alex",         160000
 
 
  */
