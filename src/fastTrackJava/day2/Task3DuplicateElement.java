@@ -1,4 +1,4 @@
-package day2;
+package fastTrackJava.day2;
 
 import java.util.ArrayList;
 import java.util.Arrays;

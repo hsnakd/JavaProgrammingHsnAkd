@@ -1,4 +1,4 @@
-package day3;
+package fastTrackJava.day3;
 
 public class TaskArmstrong {
     /*

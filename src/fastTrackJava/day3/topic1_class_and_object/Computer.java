@@ -1,4 +1,4 @@
-package day3.topic1_class_and_object;
+package fastTrackJava.day3.topic1_class_and_object;
 
 public class Computer {
 

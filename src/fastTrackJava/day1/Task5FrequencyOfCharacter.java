@@ -1,4 +1,4 @@
-package day1;
+package fastTrackJava.day1;
 
 public class Task5FrequencyOfCharacter {
 

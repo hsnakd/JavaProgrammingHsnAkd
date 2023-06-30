@@ -1,4 +1,4 @@
-package day3.topic3_exceptions;
+package fastTrackJava.day3.topic3_exceptions;
 
 public class Ex07ThrowsVsThrow {
     public static void main(String[] args) throws Exception{

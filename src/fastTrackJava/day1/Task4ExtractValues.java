@@ -1,4 +1,4 @@
-package day1;
+package fastTrackJava.day1;
 
 import java.text.DecimalFormat;
 

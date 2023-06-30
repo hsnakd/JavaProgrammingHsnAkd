@@ -1,4 +1,4 @@
-package day2;
+package fastTrackJava.day2;
 
 public class Task1MethodMiniTasks {
 

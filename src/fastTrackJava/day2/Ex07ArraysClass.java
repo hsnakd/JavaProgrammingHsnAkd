@@ -1,4 +1,4 @@
-package day2;
+package fastTrackJava.day2;
 
 import java.util.Arrays;
 //https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Arrays.html

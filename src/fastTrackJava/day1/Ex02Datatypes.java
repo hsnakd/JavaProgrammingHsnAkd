@@ -1,4 +1,4 @@
-package day1;
+package fastTrackJava.day1;
 
 import java.math.BigDecimal;
 import java.util.Scanner;
@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Ex02Datatypes {
     public static void main(String[] args) {
 
-        // primitive datatypes
+        // primitive dataTypes
         byte a;
         short b;
         int c;
@@ -15,7 +15,7 @@ public class Ex02Datatypes {
         double f;
         boolean g;
 
-        // non-primitive datatypes: Objects
+        // non-primitive dataTypes: Objects
         String h;
         Scanner i;
 
@@ -27,7 +27,7 @@ public class Ex02Datatypes {
         System.out.println("Float: " + Float.MIN_VALUE + " <-> " + Float.MAX_VALUE);
         System.out.println(" * Double: " + Double.MIN_VALUE + " <-> " + Double.MAX_VALUE);
 
-        System.out.println(new BigDecimal(Double.MAX_VALUE));
+        System.out.println("Big Decimal Double : " + new BigDecimal(Double.MAX_VALUE));
 
         // int and double are the default types
         int i1 = 4;

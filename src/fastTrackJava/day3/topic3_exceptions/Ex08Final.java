@@ -1,4 +1,4 @@
-package day3.topic3_exceptions;
+package fastTrackJava.day3.topic3_exceptions;
 
 public final class Ex08Final {
 

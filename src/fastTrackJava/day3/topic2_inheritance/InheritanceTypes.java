@@ -1,4 +1,4 @@
-package day3.topic2_inheritance;
+package fastTrackJava.day3.topic2_inheritance;
 
 public class InheritanceTypes {
 }

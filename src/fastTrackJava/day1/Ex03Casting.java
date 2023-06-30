@@ -1,4 +1,4 @@
-package day1;
+package fastTrackJava.day1;
 
 public class Ex03Casting {
     public static void main(String[] args) {
