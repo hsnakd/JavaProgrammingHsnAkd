@@ -34,12 +34,12 @@ public class Ex05Operators {
         System.out.println(n++); // 10
         System.out.println(++n); // 12
 
-        int n2 = 5; // 5 -> 4 -> 5 _> 6 -> 5 -> 4
-        n2--;
-        ++n2;
-        System.out.println(++n2); // 6
-        System.out.println(--n2); // 5
-        System.out.println(n2--); // 5
+        int n2 = 5; // 5 -> 4 -> 5 -> 6 -> 5 -> 4
+        n2--;   // 5 --> 5-1=4
+        ++n2;   // 4+1=5
+        System.out.println(++n2); // 5+1=6
+        System.out.println(--n2); // 6-1=5
+        System.out.println(n2--); // 5 --> 5-1=4
         System.out.println(n2); // 4
 
         System.out.println("------------------------------------------------------");

@@ -8,11 +8,12 @@ public class Ex07Loops {
         System.out.println("Hello");
         System.out.println("Hello");
         System.out.println("Hello");
+        System.out.println("------------------------------------------------------");
 
         // can be replaced with:
 
         for(int i = 0; i < 5; i++){
-            System.out.println("Hello");
+            System.out.println("Hello " + (i+1));
         }
 
         /*
