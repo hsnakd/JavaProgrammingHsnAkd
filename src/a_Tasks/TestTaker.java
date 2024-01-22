@@ -36,7 +36,7 @@ class Triangle implements a_Tasks.Shape {
     }
 }
 
-class ShapeManager {
+public class ShapeManager {
     private HashMap<String, a_Tasks.Shape> shapes;
 
     public ShapeManager() {
