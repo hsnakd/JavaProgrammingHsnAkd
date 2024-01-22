@@ -36,38 +36,6 @@ class Triangle implements a_Tasks.Shape {
     }
 }
 
-public class ShapeManager {
-    private HashMap<String, a_Tasks.Shape> shapes;
-
-    public ShapeManager() {
-        this.shapes = new HashMap<>();
-    }
-
-    public void addShape(String shapeType, String id, int param1, int param2) {
-        a_Tasks.Shape shape;
-        switch (shapeType) {
-            case "rectangle":
-                shape = new a_Tasks.Rectangle(param1, param2);
-                break;
-            case "triangle":
-                shape = new a_Tasks.Triangle(param1, param2);
-                break;
-            default:
-                throw new IllegalArgumentException("Unsupported shape type");
-        }
-        shapes.put(id, shape);
-    }
-
-    public String getArea(String id) {
-        a_Tasks.Shape shape = shapes.get(id);
-        if (shape != null) {
-            return String.valueOf(shape.getArea());
-        } else {
-            return "error";
-        }
-    }
-}
-
 class GeometryChatbot {
     public static String processCommands(String[] commands) {
         a_Tasks.ShapeManager shapeManager = new a_Tasks.ShapeManager();
